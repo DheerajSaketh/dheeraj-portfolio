@@ -19,10 +19,10 @@ export default function Experience() {
           </ul>
         </div>
 
-        <div>
-          <h3 className="text-xl font-medium">Software Developer & Workflow Specialist — CoreLogic (via TCS)</h3>
-          <p className="text-gray-600 mb-3">Dec 2021 – Jun 2022 • Irvine, CA</p>
-          <ul className="list-disc ml-6 text-gray-700 space-y-2">
+        <div className="border border-red-600 rounded-lg p-4 bg-gray-700">
+          <h3 className="text-xl font-medium text-red-300">Software Developer & Workflow Specialist — CoreLogic (via TCS)</h3>
+          <p className="text-gray-100 mb-3">Dec 2021 – Jun 2022 • Irvine, CA</p>
+          <ul className="list-disc ml-6 text-gray-100 space-y-2">
             <li>Developed automated ETL workflows improving refresh cycles by 35%.</li>
             <li>Designed SQL-based data models for analytics.</li>
             <li>Performed governance and QA ensuring 99% data accuracy.</li>
