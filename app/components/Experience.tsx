@@ -1,11 +1,11 @@
 export default function Experience() {
   return (
-    <section id="experience" className="border-2 border-red-500">
+    <section id="experience" className="border-2 border-red-500 fade-in-up glow-red">
       <h2 className="text-3xl font-semibold mb-6 text-red-400">Experience</h2>
 
       <div className="space-y-10">
 
-        <div className="border border-red-600 rounded-lg p-4 bg-gray-700">
+        <div className="border border-red-600 rounded-lg p-4 bg-gray-700/50 hover:bg-gray-700/70 transition-all duration-300">
           <h3 className="text-xl font-medium text-red-300">Data Engineer — Stryker (via TCS)</h3>
           <p className="text-gray-100 mb-3">July 2022 – January 2024 • Cary, IL</p>
           <ul className="list-disc ml-6 text-gray-100 space-y-2">
@@ -19,7 +19,7 @@ export default function Experience() {
           </ul>
         </div>
 
-        <div className="border border-red-600 rounded-lg p-4 bg-gray-700">
+        <div className="border border-red-600 rounded-lg p-4 bg-gray-700/50 hover:bg-gray-700/70 transition-all duration-300">
           <h3 className="text-xl font-medium text-red-300">Software Developer & Workflow Specialist — CoreLogic (via TCS)</h3>
           <p className="text-gray-100 mb-3">Dec 2021 – Jun 2022 • Irvine, CA</p>
           <ul className="list-disc ml-6 text-gray-100 space-y-2">

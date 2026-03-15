@@ -44,12 +44,12 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="border-2 border-yellow-500">
+    <section id="projects" className="border-2 border-yellow-500 fade-in-up glow-yellow">
       <h2 className="text-3xl font-semibold mb-6 text-yellow-400">Projects</h2>
 
       <div className="space-y-10">
         {projects.map((project, index) => (
-          <div key={index} className="border border-yellow-600 rounded-lg p-4 bg-gray-700">
+          <div key={index} className="border border-yellow-600 rounded-lg p-4 bg-gray-700/50 hover:bg-gray-700/70 transition-all duration-300">
             <h3 className="text-xl font-medium text-yellow-300 mb-3">{project.title}</h3>
             <ul className="list-disc ml-6 text-gray-100 space-y-1">
               {project.details.map((d, i) => (
