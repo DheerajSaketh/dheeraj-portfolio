@@ -1,14 +1,14 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Education from "./components/Education";
-import Certifications from "./components/Certifications";
-import Interests from "./components/Interests";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.tsx";
+import Hero from "./components/Hero.tsx";
+import About from "./components/About.tsx";
+import Skills from "./components/Skills.tsx";
+import Experience from "./components/Experience.tsx";
+import Projects from "./components/Projects.tsx";
+import Education from "./components/Education.tsx";
+import Certifications from "./components/Certifications.tsx";
+import Interests from "./components/Interests.tsx";
+import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
 
 export default function Home() {
   return (
