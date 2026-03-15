@@ -44,7 +44,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="border-2 border-yellow-500 fade-in-up glow-yellow">
+    <section id="projects" className="border-2 border-yellow-500 fade-in-up glow-yellow data-pipeline-bg">
       <h2 className="text-3xl font-semibold mb-6 text-yellow-400">Projects</h2>
 
       <div className="space-y-10">

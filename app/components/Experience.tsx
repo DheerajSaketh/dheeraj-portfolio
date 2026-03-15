@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <section id="experience" className="border-2 border-red-500 fade-in-up glow-red">
+    <section id="experience" className="border-2 border-red-500 fade-in-up glow-red tech-professional-bg">
       <h2 className="text-3xl font-semibold mb-6 text-red-400">Experience</h2>
 
       <div className="space-y-10">
