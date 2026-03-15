@@ -1,6 +1,11 @@
 export default function Hero() {
   return (
     <section id="home" className="pt-32 text-center">
+      <img
+        src="/profile.png"
+        alt="Dheeraj Saketh"
+        className="w-32 h-32 rounded-full mx-auto mb-6"
+      />
       <h1 className="text-4xl font-bold">Dheeraj Saketh</h1>
       <p className="mt-4 text-xl text-gray-600">
         Azure Data Engineer
