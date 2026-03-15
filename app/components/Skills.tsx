@@ -10,14 +10,14 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills">
-      <h2 className="text-3xl font-semibold mb-6">Skills</h2>
+    <section id="skills" className="border-2 border-purple-500">
+      <h2 className="text-3xl font-semibold mb-6 text-purple-400">Skills</h2>
 
       <div className="space-y-6">
         {skills.map((skill) => (
           <div key={skill.category}>
-            <h3 className="font-medium text-lg">{skill.category}</h3>
-            <p className="text-gray-700">{skill.items}</p>
+            <h3 className="font-medium text-lg text-purple-300">{skill.category}</h3>
+            <p className="text-gray-300">{skill.items}</p>
           </div>
         ))}
       </div>

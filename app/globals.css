@@ -9,9 +9,9 @@ html {
 }
 
 body {
-  @apply bg-white text-gray-900;
+  @apply bg-gray-900 text-white;
 }
 
 section {
-  @apply py-20 px-6 max-w-5xl mx-auto;
+  @apply py-20 px-6 max-w-5xl mx-auto bg-gray-800 rounded-lg;
 }
