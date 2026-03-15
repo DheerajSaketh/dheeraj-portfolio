@@ -1,0 +1,19 @@
+export default function Hero() {
+  return (
+    <section id="home" className="pt-32 text-center">
+      <h1 className="text-4xl font-bold">Dheeraj Saketh</h1>
+      <p className="mt-4 text-xl text-gray-600">
+        Azure Data Engineer
+      </p>
+
+      <div className="mt-6 flex justify-center gap-4">
+        <a
+          href="#contact"
+          className="px-6 py-3 border border-black rounded-md"
+        >
+          Contact
+        </a>
+      </div>
+    </section>
+  );
+}
