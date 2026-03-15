@@ -44,14 +44,14 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects">
-      <h2 className="text-3xl font-semibold mb-6">Projects</h2>
+    <section id="projects" className="border-2 border-yellow-500">
+      <h2 className="text-3xl font-semibold mb-6 text-yellow-400">Projects</h2>
 
       <div className="space-y-10">
-        {projects.map((project) => (
-          <div key={project.title}>
-            <h3 className="text-xl font-medium">{project.title}</h3>
-            <ul className="list-disc ml-6 text-gray-700 space-y-2">
+        {projects.map((project, index) => (
+          <div key={index}>
+            <h3 className="text-xl font-medium text-yellow-300 mb-3">{project.title}</h3>
+            <ul className="list-disc ml-6 text-gray-200 space-y-1">
               {project.details.map((d, i) => (
                 <li key={i}>{d}</li>
               ))}

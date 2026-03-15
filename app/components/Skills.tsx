@@ -17,7 +17,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div key={skill.category}>
             <h3 className="font-medium text-lg text-purple-300">{skill.category}</h3>
-            <p className="text-gray-300">{skill.items}</p>
+            <p className="text-gray-200">{skill.items}</p>
           </div>
         ))}
       </div>

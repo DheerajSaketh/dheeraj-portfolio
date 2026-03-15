@@ -7,7 +7,7 @@ export default function Hero() {
         className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-500"
       />
       <h1 className="text-4xl font-bold">Dheeraj Saketh</h1>
-      <p className="mt-4 text-xl text-gray-300">
+      <p className="mt-4 text-xl text-gray-200">
         Azure Data Engineer
       </p>
 
