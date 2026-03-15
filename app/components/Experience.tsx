@@ -5,10 +5,10 @@ export default function Experience() {
 
       <div className="space-y-10">
 
-        <div>
+        <div className="border border-red-600 rounded-lg p-4 bg-gray-700">
           <h3 className="text-xl font-medium text-red-300">Data Engineer — Stryker (via TCS)</h3>
-          <p className="text-gray-200 mb-3">July 2022 – January 2024 • Cary, IL</p>
-          <ul className="list-disc ml-6 text-gray-200 space-y-2">
+          <p className="text-gray-100 mb-3">July 2022 – January 2024 • Cary, IL</p>
+          <ul className="list-disc ml-6 text-gray-100 space-y-2">
             <li>Designed and deployed 15+ Azure pipelines using ADF, Databricks, and ADLS, improving efficiency by 40%.</li>
             <li>Built analytics datasets in Azure SQL and Synapse, reducing reporting latency by 30%.</li>
             <li>Implemented Purview governance with 100% lineage visibility.</li>

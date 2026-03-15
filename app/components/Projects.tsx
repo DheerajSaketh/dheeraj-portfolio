@@ -49,9 +49,9 @@ export default function Projects() {
 
       <div className="space-y-10">
         {projects.map((project, index) => (
-          <div key={index}>
+          <div key={index} className="border border-yellow-600 rounded-lg p-4 bg-gray-700">
             <h3 className="text-xl font-medium text-yellow-300 mb-3">{project.title}</h3>
-            <ul className="list-disc ml-6 text-gray-200 space-y-1">
+            <ul className="list-disc ml-6 text-gray-100 space-y-1">
               {project.details.map((d, i) => (
                 <li key={i}>{d}</li>
               ))}
