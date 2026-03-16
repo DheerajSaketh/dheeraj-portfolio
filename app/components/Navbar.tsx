@@ -12,6 +12,7 @@ export default function Navbar() {
     "skills",
     "experience",
     "projects",
+    "resume",
     "education",
     "certifications",
     "interests",
