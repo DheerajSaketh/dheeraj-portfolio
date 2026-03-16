@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section id="about" className="border-2 border-green-500 fade-in-up glow-green">
-      <h2 className="text-3xl font-semibold mb-6 text-green-400">About</h2>
+    <section id="about" className="border-2 border-blue-500 fade-in-up glow-blue">
+      <h2 className="text-3xl font-semibold mb-6 text-blue-400">About</h2>
 
       <p className="text-gray-200 leading-relaxed">
         Azure Data Engineer with 2+ years of experience designing, developing, and optimizing
