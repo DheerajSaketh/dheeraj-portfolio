@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="home" className="pt-32 text-center fade-in-up glow-blue azure-cloud-bg">
+    <section id="home" className="pt-32 text-center fade-in-up glow-blue">
       <img
         src="/profile.png"
         alt="Dheeraj Saketh"

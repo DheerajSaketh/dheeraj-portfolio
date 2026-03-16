@@ -10,7 +10,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="border-2 border-purple-500 fade-in-up glow-purple data-engineering-bg">
+    <section id="skills" className="border-2 border-purple-500 fade-in-up glow-purple">
       <h2 className="text-3xl font-semibold mb-6 text-purple-400">Skills</h2>
 
       <div className="space-y-6">
