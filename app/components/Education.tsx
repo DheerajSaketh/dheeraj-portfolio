@@ -1,6 +1,6 @@
 export default function Education() {
   return (
-    <section id="education" className="border-2 border-pink-500 fade-in-up glow-pink">
+    <section id="education" className="border-2 border-pink-500 fade-in-up glow-pink azure-learning-bg">
       <h2 className="text-3xl font-semibold mb-6 text-pink-400">Education</h2>
 
       <div className="border border-pink-600 rounded-lg p-4 bg-gray-700/50 hover:bg-gray-700/70 transition-all duration-300">
