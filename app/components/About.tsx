@@ -4,13 +4,14 @@ export default function About() {
       <h2 className="text-3xl font-semibold mb-6 text-blue-400">About</h2>
 
       <p className="text-gray-200 leading-relaxed">
-        Azure Data Engineer with 2+ years of experience designing, developing, and optimizing
-        cloud-native data solutions across the Azure ecosystem. Skilled in building scalable
-        ETL/ELT pipelines, orchestrating workflows, and delivering analytics-ready datasets
-        using Azure Data Factory, Databricks, Synapse, and ADLS. Strong hands-on expertise in
-        Python, SQL, and PySpark, with proven experience implementing data governance and
-        lineage using Purview. Passionate about transforming business requirements into secure,
-        high-performance data architectures.
+        Cloud architect and engineer with 2+ years of hands-on data and cloud engineering
+        experience. I design and implement distributed systems and cloud-native architectures
+        across AWS, Azure, and GCP, focusing on reliability, scalability, and cost efficiency.
+        My work blends data engineering (ETL, streaming, Spark) with infrastructure design,
+        applying serverless and microservices patterns, event-driven integration, and
+        Infrastructure as Code to deliver production-ready solutions. I collaborate with
+        stakeholders to translate requirements into clear system designs and actionable
+        execution plans, ensuring alignment across engineering, product, and operations.
       </p>
     </section>
   );

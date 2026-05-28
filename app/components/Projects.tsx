@@ -1,44 +1,43 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Azure Data Lakehouse & Pipeline",
+      title: "Data Lakehouse & Pipeline (Architecture Focus)",
       details: [
-        "Designed Bronze–Silver–Gold architecture using ADLS, Databricks, Synapse.",
-        "Built ETL pipelines with validation and monitoring.",
-        "Integrated Purview for lineage.",
-        "Improved throughput by 35%."
+        "Led end-to-end architecture design for a lakehouse with clear ingestion, processing, and serving layers emphasizing scalability and cost control.",
+        "Specified partitioning, compaction and schema strategy to meet SLA and query patterns.",
+        "Defined monitoring, alerting and operational runbooks for production readiness."
       ]
     },
     {
-      title: "AI/ML Pipeline Support",
+      title: "AI/ML Pipeline & Feature Store",
       details: [
-        "Prepared structured datasets for ML workflows.",
-        "Implemented preprocessing and feature engineering.",
-        "Integrated MLflow for versioning and tracking."
+        "Architected dataset preparation and feature pipelines to support model training and online/offline feature serving with reproducibility in mind.",
+        "Designed storage and compute trade-offs for training vs inference workloads.",
+        "Captured design decisions for observability and model rollback strategies."
       ]
     },
     {
-      title: "Real-Time Streaming Pipeline",
+      title: "Real-Time Streaming Architecture",
       details: [
-        "Kafka → Databricks → Delta Lake streaming ingestion.",
-        "Enabled near real-time analytics with Power BI.",
-        "Implemented watermarking and late-arrival handling."
+        "Designed an event-driven ingestion pipeline with streaming guarantees and backpressure considerations for high-throughput workloads.",
+        "Defined end-to-end latency, fault-tolerance and replay strategies for business-critical streams.",
+        "Outlined schema evolution and consumer contract patterns to support multiple downstream services."
       ]
     },
     {
-      title: "End-to-End ETL with ADF",
+      title: "End-to-End Data Integration",
       details: [
-        "Ingested data from APIs, SQL, and cloud storage.",
-        "Built mapping data flows for cleansing and schema enforcement.",
-        "Automated triggers and integrated Key Vault."
+        "Defined ingestion and orchestration patterns for batch and micro-batch workloads with clear SLAs and retry semantics.",
+        "Designed secure secrets handling and access boundaries between services.",
+        "Recommended cost and performance trade-offs for compute choices in production."
       ]
     },
     {
-      title: "Data Quality & Governance Framework",
+      title: "Data Quality & Governance",
       details: [
-        "Built reusable PySpark framework for validation.",
-        "Integrated with Azure Monitor for alerts.",
-        "Standardized data quality scoring."
+        "Designed a governance approach including lineage, quality scoring, and automated validation to reduce production incidents.",
+        "Specified alerting and mitigation workflows to improve MTTR for data issues.",
+        "Aligned data ownership and access controls with compliance requirements."
       ]
     }
   ];

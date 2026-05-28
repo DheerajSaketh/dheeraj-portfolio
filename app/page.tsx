@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import CloudArchitectureFocus from "./components/CloudArchitectureFocus";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -15,6 +17,8 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <About />
+      <CloudArchitectureFocus />
       <Skills />
       <Experience />
       <Projects />

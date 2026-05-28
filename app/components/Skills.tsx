@@ -1,12 +1,9 @@
 export default function Skills() {
   const skills = [
-    { category: "Programming", items: "Python, SQL, PySpark, Scala, Java, C++, C#, JavaScript, Bash/Shell, R" },
-    { category: "Databases", items: "SQL Server, MySQL, PostgreSQL, Oracle, MongoDB" },
-    { category: "Big Data", items: "Apache Spark, Kafka, Hive" },
-    { category: "Cloud Platforms", items: "Azure, AWS, GCP" },
-    { category: "Azure Services", items: "ADF, Databricks, Synapse, ADLS Gen2, Azure SQL, Key Vault, Functions, Event Hub, Logic Apps, Monitor" },
-    { category: "Data Engineering", items: "ETL/ELT, Data Warehousing, Data Modeling, Orchestration, Performance Optimization, Data Governance, Data Quality, CI/CD, Git" },
-    { category: "Tools", items: "Power BI, Tableau, Azure DevOps, GitHub Actions, Jupyter, VS Code, Postman" },
+    { category: "Cloud", items: "AWS (conceptual), Azure, GCP" },
+    { category: "Architecture", items: "Serverless, Microservices, Event-driven, CI/CD, IaC (Terraform/CloudFormation)" },
+    { category: "Data Engineering", items: "Spark, Kafka, ETL, Data Pipelines, Delta Lake" },
+    { category: "Programming", items: "Python, SQL, PySpark, Java, JavaScript" },
   ];
 
   return (

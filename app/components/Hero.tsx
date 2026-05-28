@@ -10,7 +10,7 @@ export default function Hero() {
           />
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mt-4">Dheeraj Saketh</h1>
           <p className="text-xl text-gray-200 mt-2">
-            Azure Data Engineer
+            Cloud & AI Engineer | AWS Solutions Architect Aspirant
           </p>
           <div className="mt-6">
             <a
@@ -24,13 +24,11 @@ export default function Hero() {
 
         <div className="flex-1 max-w-2xl">
           <p className="text-gray-200 leading-relaxed text-lg">
-            Azure Data Engineer with 2+ years of experience designing, developing, and optimizing
-            cloud-native data solutions across the Azure ecosystem. Skilled in building scalable
-            ETL/ELT pipelines, orchestrating workflows, and delivering analytics-ready datasets
-            using Azure Data Factory, Databricks, Synapse, and ADLS. Strong hands-on expertise in
-            Python, SQL, and PySpark, with proven experience implementing data governance and
-            lineage using Purview. Passionate about transforming business requirements into secure,
-            high-performance data architectures.
+            Cloud & AI Engineer focused on designing resilient, scalable cloud architectures
+            and integrating AI capabilities into production systems. 2+ years of experience in
+            data and cloud engineering across multi-cloud environments. Skilled at translating
+            stakeholder requirements into secure, cost-effective system designs with attention
+            to reliability, observability and operational excellence.
           </p>
         </div>
       </div>
